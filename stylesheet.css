@@ -75,11 +75,22 @@ p {
 
 .detail-txt {
     padding-left: 50px;
+    position: relative;
+    bottom: 13px;
+    line-height: 18px;
 }
 
 .detail-txt p {
     border-top: 1px solid #DEDEDE;
-    padding-top: 20px;
+    padding-top: 25px;
+}
+
+.info {
+    display: flex;
+}
+
+.info p {
+    padding-right: 35px;
 }
 
 .detail-txt a {
