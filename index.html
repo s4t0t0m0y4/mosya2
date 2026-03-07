@@ -4,44 +4,55 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>PHOTO BOOK</title>
+        <link rel="icon" href="img/favicon.ico">
         <link rel="stylesheet" href="stylesheet.css">
         <link rel="stylesheet" href="responsive.css">
     </head>
     <body>
         <div class="container">
             <header>
-                <a href="/index.html"><img src="img/logo.svg"></a>
+                <h1 class="site-title">
+                    <a href="/index.html"><img src="img/logo.svg"></a>
+                </h1>
             </header>
             <main>
-                <div class="main-visual"></div>
-                <div class="index-container">
-                    <div class="index">
-                        <h2>INDEX</h2>
-                        <p>1. タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
-                        <p>2. タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
-                        <p>3. タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
-                        <p>4. タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
-                        <p>5. タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
+                <div class="main-visual"><img class="img" src="img/mainvisual.jpg"></div>
+                <section class="index">
+                    <div class="inner">
+                        <h2 class="section-title">INDEX</h2>
+                        <ol class="index-list">
+                            <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+                            <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+                            <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+                            <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+                            <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+                        </ol>
                     </div>
-                </div>
-                <div class="detail">
-                    <h2>DETAIL</h2>
-                    <div class="detail-container">
-                        <img src="img/detail.jpg">
-                        <div class="detail-txt">
-                            <h2>タイトルタイトルタイトル</h2>
-                            <div class="info">
-                                <p>著者<br>出版社<br>発行年</p>
-                                <p>タイトルタイトルタイトル<br>タイトルタイトルタイトル<br>タイトルタイトルタイトル</p>
+                </section>
+                <section class="detail">
+                    <div class="inner">
+                        <h2 class="section-title">DETAIL</h2>
+                        <div class="content">
+                            <img class="img" src="img/detail.jpg">
+                            <div class="text">
+                                <p class="title">タイトルタイトルタイトル</p>
+                                <dl>
+                                    <dt>著者</dt>
+                                    <dd>タイトルタイトルタイトル</dd>
+                                    <dt>出版社</dt>
+                                    <dd>タイトルタイトルタイトル</dd>
+                                    <dt>発行年</dt>
+                                    <dd>タイトルタイトルタイトル</dd>
+                                </dl>
+                                <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                                <a class="link" href="#" target="_blank">オンラインストアで見る</a>
                             </div>
-                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                            <a href="#" target="_blank">オンラインストアで見る</a>
                         </div>
                     </div>
-                </div>
+                </section>
             </main>
             <footer>
-                <div class="footer-container">© 2020 PHOTO BOOK</div>
+                <p class="inner">© 2020 PHOTO BOOK</p>
             </footer>
         </div>
     </body>
